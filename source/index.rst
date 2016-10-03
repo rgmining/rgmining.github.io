@@ -30,6 +30,8 @@ Contents
 
    introduction
    publications
+   forum
+   contact
 
 ..  api
 
