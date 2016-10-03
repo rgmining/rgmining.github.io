@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Introduction &mdash; Review Graph Mining 0.9.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="Review Graph Mining 0.9.0 documentation" href="index.html"/>
+        <link rel="next" title="Publications" href="publications.html"/>
+        <link rel="prev" title="Review Graph Mining" href="index.html"/>
+<meta name="title" content="Review Graph Mining documentation"/>
+<meta name="keywords" content="review,data mining,algorithm"/>
+<meta name="description" content="A framework of review data mining based on a graph model."/>
+
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Review Graph Mining documentation"/>
+<meta property="og:description" content="A framework of review data mining based on a graph model." />
+<meta property="og:image" content="https://avatars0.githubusercontent.com/u/22570694" />
+<meta property="og:url" content="https://rgmining.github.io/" />
+<meta property="og:site_name" content="Review Graph Mining"/>
+<meta content="summary" name="twitter:card" />
+<meta content="@junkawamoto" name="twitter:site" />
+
+<script src="https://use.fontawesome.com/f179dac0e7.js"></script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4734862314145555",
+    enable_page_level_ads: true
+  });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-82315630-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Review Graph Mining
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+
+
+  <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="publications.html">Publications</a></li>
+</ul>
+
+
+<hr />
+<div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Introduction</a></li>
+</ul>
+</div>
+<hr />
+<div style="padding: 0;">
+  <div style="width: 300px; margin: auto;">
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:300px;height:600px"
+         data-ad-client="ca-pub-4734862314145555"
+         data-ad-slot="6934003829"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Review Graph Mining</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Introduction</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <!-- User defined GitHub URL -->
+              <a href="https://github.com/rgmining/" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>A number of web sites provide people&#8217;s reviews about various kinds of objects
+such as products, stores and services. Those reviews have been considered as
+important for both consumers and vendors to make decisions. For example,
+consumers read product reviews on Amazon.com to buy the best products
+and read movie reviews on a site like The Internet Movie Database
+(<a class="reference external" href="http://www.imdb.com/">IMDb</a>) to find interesting movies.
+On the other hand, vendors obtain feedbacks about their products from review
+sites for marketing.</p>
+<p>Summaries of reviews are also useful for making decisions particularly
+because summaries enable us to understand semantic orientations without reading
+all reviews. In fact, most of review sites provide summaries of reviews.
+A typical summary is average scores of reviews.
+Several methodologies to summarize reviews have been proposed <a class="footnote-reference" href="#liu-www05" id="id1">[1]</a>
+<a class="footnote-reference" href="#pera-wise10" id="id2">[2]</a>.</p>
+<p>To summarize reviews, treating all reviews equivalently is inappropriate
+approach because there would be <em>anomalous reviewers</em>. Some of them are
+malicious and sometimes called spam reviewers who would deliberately bring
+biased views for their benefit. The others would provide too specialized
+opinions for common people. One example of anomalous but not spam reviewer is an
+expert of a product. Opinions of experts are often significantly useful for
+another expert, although they can be inappropriate for common people.
+For example, if a common person desires to buy a digital camera for daily use,
+reviews from common people are more suitable than ones from experts because
+usually experts recommend too expensive or too heavy camera for common people.
+Therefore, detecting anomalous reviewers and their reviews is important to
+summarize reviews.</p>
+<p>The aim of this project is providing a framework to evaluate several algorithms
+to detect anomalous reviewers and compare those algorithms in your problem.</p>
+<p class="rubric">References</p>
+<table class="docutils footnote" frame="void" id="liu-www05" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>B. Liu, M. Hu, and J. Cheng. Opinion Observer: Analyzing and
+Comparing Opinions on the Web. In Proc. of the 14th International Conference
+on World Wide Web, pages 342–351, Chiba, Japan, May 2005.</td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="pera-wise10" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[2]</a></td><td>M. S. Pera, R. Qumsiyeh, and Y.-K. Ng. An Unsupervised
+Sentiment Classifier on Summarized or Full Reviews. In Proc. of the 11th
+International Conference on Web Information Systems Engineering, pages 142–156,
+Hong Kong, China, Dec. 2010. Springer-Verlag.</td></tr>
+</tbody>
+</table>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="publications.html" class="btn btn-neutral float-right" title="Publications" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Review Graph Mining" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, Junpei Kawamoto.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.9.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+  
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57f1fa5b740feddd"></script>
+
+
+</body>
+</html>
