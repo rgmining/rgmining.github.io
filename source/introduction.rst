@@ -35,10 +35,19 @@ to detect anomalous reviewers and compare those algorithms in your problem.
 
 .. rubric:: References
 
-.. [#Liu:WWW05] B. Liu, M. Hu, and J. Cheng. Opinion Observer: Analyzing and
-  Comparing Opinions on the Web. In Proc. of the 14th International Conference
-  on World Wide Web, pages 342–351, Chiba, Japan, May 2005.
-.. [#Pera:WISE10] M. S. Pera, R. Qumsiyeh, and Y.-K. Ng. An Unsupervised
-  Sentiment Classifier on Summarized or Full Reviews. In Proc. of the 11th
+.. [#Liu:WWW05] B. Liu, M. Hu, and J. Cheng. |pdf| `Opinion Observer: Analyzing and
+  Comparing Opinions on the Web <https://www.cs.uic.edu/~liub/publications/www05-p536.pdf>`_.
+  In Proc. of the 14th International Conference on World Wide Web, pages 342–351,
+  Chiba, Japan, May 2005.
+.. [#Pera:WISE10] M. S. Pera, R. Qumsiyeh, and Y.-K. Ng. |springer| `An Unsupervised
+  Sentiment Classifier on Summarized or Full Reviews
+  <http://www.anrdoezrs.net/links/8186671/type/dlg/http://link.springer.com/chapter/10.1007%2F978-3-642-17616-6_14>`_.
+  In Proc. of the 11th
   International Conference on Web Information Systems Engineering, pages 142–156,
   Hong Kong, China, Dec. 2010. Springer-Verlag.
+
+.. |pdf| raw:: html
+
+   <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+
+.. |springer| image:: img/springer.png
