@@ -33,13 +33,13 @@ Contents
    forum
    contact
 
-..  api
-
 
 API Reference
 ---------------
 * `common package </common>`_
+* `dataset_io package </dataset-io>`_
 * `review package </review>`_
+* `synthetic package </synthetic>`_
 * `fraud_eagle package </fraud-eagle>`_
 
 
