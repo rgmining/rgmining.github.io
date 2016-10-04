@@ -43,13 +43,6 @@ API Reference
 * `fraud_eagle package </fraud-eagle>`_
 
 
-Indices and tables
---------------------
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-
 License
 ---------
 This software is released under The GNU General Public License Version 3.
