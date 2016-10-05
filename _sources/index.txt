@@ -38,9 +38,10 @@ API Reference
 ---------------
 * `common package </common>`_
 * `dataset_io package </dataset-io>`_
-* `review package </review>`_
-* `synthetic package </synthetic>`_
 * `fraud_eagle package </fraud-eagle>`_
+* `review package </review>`_
+* `rsd package </rsd>`_
+* `synthetic package </synthetic>`_
 
 
 License
