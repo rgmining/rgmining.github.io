@@ -29,20 +29,9 @@ Contents
    :maxdepth: 2
 
    introduction
+   libraries
    publications
    forum
-   contact
-
-
-API Reference
----------------
-* `common package </common>`_
-* `dataset_io package </dataset-io>`_
-* `fraud_eagle package </fraud-eagle>`_
-* `review package </review>`_
-* `ria package </ria>`_
-* `rsd package </rsd>`_
-* `synthetic package </synthetic>`_
 
 
 License

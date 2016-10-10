@@ -35,12 +35,7 @@
 
 
 {% block menu %}
-{% set toctree = toctree(maxdepth=theme_navigation_depth, collapse=theme_collapse_navigation, includehidden=True) %}
-{% if toctree %}
-  {{ toctree }}
-{% endif %}
-<hr />
-<div class="local-toc">{{ toc }}</div>
+{{ super() }}
 <hr />
 <div style="padding: 0;">
   <div style="width: 300px; margin: auto;">

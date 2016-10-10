@@ -140,7 +140,7 @@ html_theme = "sphinx_rtd_theme"
 # documentation.
 #
 html_theme_options = {
-    'collapse_navigation': True,
+    'collapse_navigation': False,
     "display_version": False
 }
 
@@ -226,7 +226,7 @@ html_static_path = ['_static']
 # contain a <link> tag referring to it.  The value of this option must be the
 # base URL from which the finished HTML is served.
 #
-# html_use_opensearch = ''
+html_use_opensearch = 'https://docs.python.org'
 
 # This is the file name suffix for HTML files (e.g. ".xhtml").
 # html_file_suffix = None
@@ -356,4 +356,13 @@ texinfo_documents = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
+intersphinx_mapping = {
+    "common": ("https://rgmining.github.io/common", None),
+    "dataset-io": ("https://rgmining.github.io/dataset-io", None),
+    "fraud-eagle": ("https://rgmining.github.io/fraud-eagle", None),
+    "review": ("https://rgmining.github.io/review", None),
+    "ria": ("https://rgmining.github.io/ria", None),
+    "rsd": ("https://rgmining.github.io/rsd", None),
+    "synthetic": ("https://rgmining.github.io/synthetic", None),
+    'python': ('https://docs.python.org/3.4', None),
+}
