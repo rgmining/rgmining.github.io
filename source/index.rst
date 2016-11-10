@@ -29,11 +29,7 @@ Contents
    :maxdepth: 2
 
    introduction
+   tutorial
    libraries
    publications
    forum
-
-
-License
----------
-This software is released under The GNU General Public License Version 3.
