@@ -360,6 +360,7 @@ intersphinx_mapping = {
     "common": ("https://rgmining.github.io/common", None),
     "dataset-io": ("https://rgmining.github.io/dataset-io", None),
     "fraud-eagle": ("https://rgmining.github.io/fraud-eagle", None),
+    "fraudar": ("https://rgmining.github.io/fraudar", None),
     "review": ("https://rgmining.github.io/review", None),
     "ria": ("https://rgmining.github.io/ria", None),
     "rsd": ("https://rgmining.github.io/rsd", None),
