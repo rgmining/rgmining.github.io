@@ -1,3 +1,5 @@
+:description: A framework of review data mining based on a graph model.
+
 Review Graph Mining
 =====================
 .. raw:: html
