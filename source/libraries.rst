@@ -1,3 +1,5 @@
+:description: Libraries provided by a framework of review data mining based on a graph model.
+
 Libraries
 ===========
 

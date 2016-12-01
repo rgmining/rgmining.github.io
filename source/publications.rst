@@ -1,3 +1,5 @@
+:description: Publication lists related to a framework of review data mining based on a graph model.
+
 Publications
 ==============
 .. raw:: html

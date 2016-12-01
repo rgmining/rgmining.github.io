@@ -1,3 +1,5 @@
+:description: The aim of this project is providing a framework to evaluate several algorithms to detect anomalous reviewers and compare those algorithms in your problem.
+
 Introduction
 ==============
 A number of web sites provide people's reviews about various kinds of objects
