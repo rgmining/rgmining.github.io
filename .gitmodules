@@ -1,0 +1,3 @@
+[submodule "source/_templates"]
+	path = source/_templates
+	url = https://github.com/rgmining/doc-template.git
