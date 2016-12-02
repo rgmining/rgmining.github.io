@@ -144,6 +144,15 @@ html_theme_options = {
     "display_version": False
 }
 
+html_context = {
+    "base_url": "https://rgmining.github.io/",
+    "twitter": "@junkawamoto",
+    "google_analytics": "UA-82315630-2",
+    "google_adsense": "ca-pub-4734862314145555",
+    "google_adsense_slot": "6934003829",
+    "addthis": "ra-57f1fa5b740feddd"
+}
+
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
