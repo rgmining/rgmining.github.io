@@ -8,6 +8,8 @@ build:
     - jkawamoto/sphinx:
         basedir: .
         packages: sphinx-autobuild sphinxcontrib-napoleon -e git+https://github.com/snide/sphinx_rtd_theme#egg=sphinx_rtd_theme-master
+    - samueldebruyn/minify:
+        base_dir: build/html
 deploy:
   steps:
     - jkawamoto/ghp-import:
