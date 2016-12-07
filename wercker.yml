@@ -12,13 +12,10 @@ build:
         base_dir: build/html
         png: false
         js: false
-    - jkawamoto/sitemap:
-        baseurl: https://rgmining.github.io
-        rootdir: build/html
 deploy:
   steps:
     - jkawamoto/ghp-import:
         token: $GIT_TOKEN
-        basedir: public
         basedir: build/html
         branch: master
+        baseurl: https://rgmining.github.io
