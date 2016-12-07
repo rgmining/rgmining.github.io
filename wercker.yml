@@ -11,6 +11,9 @@ build:
     - samueldebruyn/minify:
         base_dir: build/html
         png: false
+    - jkawamoto/sitemap:
+        baseurl: https://rgmining.github.io
+        rootdir: build/html
 deploy:
   steps:
     - jkawamoto/ghp-import:
