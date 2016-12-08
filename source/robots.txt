@@ -1,0 +1,9 @@
+Sitemap: https://rgmining.github.io/sitemap.xml
+Sitemap: https://rgmining.github.io/common/sitemap.xml
+Sitemap: https://rgmining.github.io/dataset-io/sitemap.xml
+Sitemap: https://rgmining.github.io/fraud-eagle/sitemap.xml
+Sitemap: https://rgmining.github.io/fraudar/sitemap.xml
+Sitemap: https://rgmining.github.io/review/sitemap.xml
+Sitemap: https://rgmining.github.io/ria/sitemap.xml
+Sitemap: https://rgmining.github.io/rsd/sitemap.xml
+Sitemap: https://rgmining.github.io/synthetic/sitemap.xml
