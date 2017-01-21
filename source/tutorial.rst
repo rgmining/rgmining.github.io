@@ -122,6 +122,8 @@ It means about 54% reviewers in the top-57 anomaly reviewers are
 actual anomalous reviewers.
 
 
+.. _parallel_evaluation:
+
 Parallel evaluation
 ---------------------
 We need to evaluate several parameters with ``analyze.py`` to determine the best one.
