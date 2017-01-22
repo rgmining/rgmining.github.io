@@ -14,6 +14,7 @@ Algorithms
 Datasets
 ----------
 * :ref:`synthetic:top`
+* :ref:`amazon:top`
 * :ref:`tripadvisor:top`
 
 

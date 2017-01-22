@@ -59,7 +59,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Review Graph Mining'
-copyright = u'2016, Junpei Kawamoto'
+copyright = u'2016-2017, Junpei Kawamoto'
 author = u'Junpei Kawamoto'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -366,6 +366,7 @@ texinfo_documents = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
+    "amazon": ("https://rgmining.github.io/amazon", None),
     "common": ("https://rgmining.github.io/common", None),
     "dataset-io": ("https://rgmining.github.io/dataset-io", None),
     "fraud-eagle": ("https://rgmining.github.io/fraud-eagle", None),
@@ -375,5 +376,5 @@ intersphinx_mapping = {
     "rsd": ("https://rgmining.github.io/rsd", None),
     "synthetic": ("https://rgmining.github.io/synthetic", None),
     "tripadvisor": ("https://rgmining.github.io/tripadvisor", None),
-    'python': ('https://docs.python.org/3.4', None),
+    "python": ('https://docs.python.org/3.4', None),
 }
