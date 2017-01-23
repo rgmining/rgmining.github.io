@@ -63,7 +63,7 @@ review graph:
     # Run one iteration.
     diff = graph.update()
     print("Iteration %d ends. (diff=%s)", i + 1, diff)
-    # If the update becomes negligible, the algorith ends.
+    # If the update becomes negligible, the algorithm ends.
     if diff < 10**-5:
       break
 
