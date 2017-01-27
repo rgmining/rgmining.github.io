@@ -1,7 +1,11 @@
-:description: Libraries provided by a framework of review data mining based on a graph model.
+:description: Libraries provided by a framework of review data mining based on
+  a graph model.
 
 Libraries
 ===========
+.. raw:: html
+
+   <div class="addthis_inline_share_toolbox"></div>
 
 Algorithms
 ------------
@@ -16,6 +20,11 @@ Datasets
 * :ref:`synthetic:top`
 * :ref:`amazon:top`
 * :ref:`tripadvisor:top`
+
+
+Scripts
+--------
+* :ref:`script:top`
 
 
 Helpers

@@ -1,4 +1,5 @@
-:description: Publication lists related to a framework of review data mining based on a graph model.
+:description: Publication lists related to a framework of review data mining
+  based on a graph model.
 
 Publications
 ==============

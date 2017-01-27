@@ -7,5 +7,6 @@ Sitemap: https://rgmining.github.io/fraudar/sitemap.xml
 Sitemap: https://rgmining.github.io/review/sitemap.xml
 Sitemap: https://rgmining.github.io/ria/sitemap.xml
 Sitemap: https://rgmining.github.io/rsd/sitemap.xml
+Sitemap: https://rgmining.github.io/script/sitemap.xml
 Sitemap: https://rgmining.github.io/synthetic/sitemap.xml
 Sitemap: https://rgmining.github.io/tripadvisor/sitemap.xml

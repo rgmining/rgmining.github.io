@@ -1,4 +1,5 @@
-:description: Tutorial of a framework of review data mining based on a graph model.
+:description: Tutorial of a framework of review data mining based on a graph
+  model.
 
 Tutorial
 =============

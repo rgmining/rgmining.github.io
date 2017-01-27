@@ -2,6 +2,9 @@
 
 Forum
 =======
+.. raw:: html
+
+   <div class="addthis_inline_share_toolbox"></div>
 
 .. raw:: html
 
