@@ -93,12 +93,19 @@ Eagle algorithm with parameter :math:`\epsilon = 0.25`:
 
   $ analyze synthetic feagle --method-param epsilon=0.25
 
+To run the above command, you may need to install ``rgmining-script``,
+``rgmining-synthetic-dataset``, and ``rgmining-fraud-eagle`` packages.
+
 Or the following command analyze your review data file ``review.json`` by the
 FRAUDAR algorithm with parameter blocks = 10:
 
 .. code-block:: sh
 
   $ analyze file --dataset-param file=review.json fraudar --method-param blocks=10
+
+To run the above command, you may need to install ``rgmining-script``,
+and ``rgmining-fraudar`` packages.
+
 
 **For research scientists**, you can evaluate your algorithms comparing with
 other algorithms. This project also provides several dataset loaders:
