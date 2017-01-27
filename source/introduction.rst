@@ -1,7 +1,14 @@
-:description: The aim of this project is providing a framework to evaluate several algorithms to detect anomalous reviewers and compare those algorithms in your problem.
+:description: The aim of this project is providing a framework to evaluate
+  several algorithms to detect anomalous reviewers and compare those algorithms
+  in your problem.
+
 
 Introduction
 ==============
+.. raw:: html
+
+   <div class="addthis_inline_share_toolbox"></div>
+
 A number of web sites provide people's reviews about various kinds of objects
 such as products, stores and services. Those reviews have been considered as
 important for both consumers and vendors to make decisions. For example,

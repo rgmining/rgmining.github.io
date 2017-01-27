@@ -374,6 +374,7 @@ intersphinx_mapping = {
     "review": ("https://rgmining.github.io/review", None),
     "ria": ("https://rgmining.github.io/ria", None),
     "rsd": ("https://rgmining.github.io/rsd", None),
+    "script": ("https://rgmining.github.io/script", None),
     "synthetic": ("https://rgmining.github.io/synthetic", None),
     "tripadvisor": ("https://rgmining.github.io/tripadvisor", None),
     "python": ('https://docs.python.org/3.4', None),

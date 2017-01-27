@@ -30,12 +30,21 @@ scientists who want to make other mining algorithms.
 
 **For data analysts**, you can easily compare several algorithms:
 
-* :ref:`Mutually Reinforcing Analysis (MRA) <ria:top>` [#DEXA2011]_,
-* :ref:`Repeated Improvement Analysis (RIA) <ria:top>` [#DEIM2015]_,
-* :ref:`Detecting Product Review Spammers Using Rating Behaviors <ria:top>` [#CIKM2010]_,
-* :ref:`Review Spammer Detection <rsd:top>` [#ICDM2011]_,
-* :ref:`Fraud Eagle <fraud-eagle:top>` [#ICWSM13]_,
-* :ref:`FRAUDAR <fraudar:top>` [#KDD2016]_.
+* :ref:`Mutually Reinforcing Analysis (MRA) <ria:top>` [#DEXA2011]_
+  (`rgmining-ria <https://pypi.python.org/pypi/rgmining-ria>`_),
+* :ref:`Repeated Improvement Analysis (RIA) <ria:top>` [#DEIM2015]_
+  (`rgmining-ria <https://pypi.python.org/pypi/rgmining-ria>`_),
+* :ref:`Detecting Product Review Spammers Using Rating Behaviors <ria:top>` [#CIKM2010]_
+  (`rgmining-ria <https://pypi.python.org/pypi/rgmining-ria>`_),
+* :ref:`Review Spammer Detection <rsd:top>` [#ICDM2011]_
+  (`rgmining-rsd <https://pypi.python.org/pypi/rgmining-rsd>`_),
+* :ref:`Fraud Eagle <fraud-eagle:top>` [#ICWSM13]_
+  (`rgmining-fraud-eagle <https://pypi.python.org/pypi/rgmining-fraud-eagle>`_),
+* :ref:`FRAUDAR <fraudar:top>` [#KDD2016]_
+  (`rgmining-fraudar <https://pypi.python.org/pypi/rgmining-fraudar>`_).
+
+All packages are also available on `PyPI <https://pypi.python.org/pypi>`_ and you can
+install them by ``pip install``.
 
 To use one algorithm, you need to create a review graph object provided by
 each package, create reviewers and products, add then run the algorithm.
@@ -73,13 +82,33 @@ review graph:
   for p in graph.products:
     print(p.name, p.summary)
 
+If you want to analyze a dataset given by this project or your review data are
+formatted in :ref:`the JSON format <dataset-io:review-data>`, you can run
+algorithms via ``analyze`` command provided by :ref:`script:top` package.
+
+For example, the following command analyzes the synthetic dataset by the Fraud
+Eagle algorithm with parameter :math:`\epsilon = 0.25`:
+
+.. code-block:: sh
+
+  $ analyze synthetic feagle --method-param epsilon=0.25
+
+Or the following command analyze your review data file ``review.json`` by the
+FRAUDAR algorithm with parameter blocks = 10:
+
+.. code-block:: sh
+
+  $ analyze file --dataset-param file=review.json fraudar --method-param blocks=10
 
 **For research scientists**, you can evaluate your algorithms comparing with
 other algorithms. This project also provides several dataset loaders:
 
-* :ref:`A Synthetic Review Dataset Loader <synthetic:top>`,
-* :ref:`amazon:top`,
-* :ref:`tripadvisor:top`.
+* :ref:`A Synthetic Review Dataset Loader <synthetic:top>`
+  (`rgmining-synthetic-dataset <https://pypi.python.org/pypi/rgmining-synthetic-dataset>`_),
+* :ref:`amazon:top`
+  (`rgmining-amazon-dataset <https://pypi.python.org/pypi/rgmining-amazon-dataset>`_),
+* :ref:`tripadvisor:top`
+  (`rgmining-tripadvisor-datast <https://pypi.python.org/pypi/rgmining-tripadvisor-dataset>`_).
 
 To use these loaders, you need to make a review graph object which implements
 the :ref:`dataset-io:graph-interface`.
@@ -95,7 +124,6 @@ to a graph object ``graph``:
   amazon.load(graph)
 
 
-
 Contents
 ----------
 
@@ -107,6 +135,23 @@ Contents
    libraries
    publications
    forum
+
+
+Contribution
+--------------
+We welcome any contributions to this project such as issue reports, providing
+mining algorithms, providing datasets, etc.
+
+If you publish something using this project, please let us know any links to it.
+We'd like to link any materials.
+
+You can find contact information at the bottom of this page.
+
+
+License
+---------
+All softwares in this project are released under The GNU General Public License Version 3,
+see `COPYING <https://www.gnu.org/licenses/gpl-3.0.html>`_ for more detail.
 
 
 References
